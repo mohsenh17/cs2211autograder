@@ -4,9 +4,8 @@ Welcome to the Assignment Autograder Repository! This repository contains script
 
 ## Contents
 
-- [Assignment 1](./assignment1/readme.md): Contains scripts and instructions for grading Assignment 1 submissions.
-- [Assignment 2](./assignment2/readme.md): Contains scripts and instructions for grading Assignment 2 submissions.
-- ~~[Assignment 3](./assignment3/readme.md): Contains scripts and instructions for grading Assignment 3 submissions.~~
+- [Assignment 2](./assignment2/readme.md): Contains scripts and instructions for grading Assignment 1 submissions.
+- [Assignment 3](./assignment3/readme.md): Contains scripts and instructions for grading Assignment 2 submissions.
 - ~~[Assignment 4](./assignment4/readme.md): Contains scripts and instructions for grading Assignment 4 submissions.~~
 
 ## How to Use
