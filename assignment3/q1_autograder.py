@@ -6,6 +6,23 @@ import sys
 
 
 def compileAndRunQ1(studentName):
+    """
+    Compiles and runs a C program for a given student, executing multiple test cases
+    and logging the results.
+
+    This function performs the following steps:
+    1. Locates the directory containing the student's Assignment 3 submission.
+    2. Compiles the C source file `part1.c` located within this directory.
+    3. Executes the compiled program with predefined input test cases.
+    4. Compares the program's output against expected results.
+    5. Logs the comparison results to specified log files.
+
+    Args:
+        studentName (str): The name of the student whose program is being tested.
+
+    Returns:
+        None
+    """
     directories = glob.glob("subs/{}/2*-Assignment3".format(studentName))[0]
     os.system("gcc {}/part1.c -o {}/part1.out".format(directories,directories))
     command = "./{}/part1.out".format(directories)
@@ -144,8 +161,7 @@ def compileAndRunQ1(studentName):
             'p6': "[8] = 9, [1] = 2, [2] = 3, [3] = 4, [4] = 5, [5] = 6, [6] = 7, [7] = 8, [0] = 1"
         }
     }
-}
-
+    }
     w = open("subs/{}/convVal.txt".format(studentName), 'w')
     wre = open("subs/{}/re.txt".format(studentName), 'w')
     for key, value in test_cases.items():
